@@ -13,7 +13,7 @@ class School
   end
   
   def grade(grade)
-    @roster[grade]
+    @roster[grade] if @roster.has_key?(grade)
   end
   
   def sort
