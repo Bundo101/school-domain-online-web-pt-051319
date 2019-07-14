@@ -17,4 +17,8 @@ class School
     @roster[grade]
   end
   
+  def sort
+    @roster.each_value { 
+  end
+  
 end
